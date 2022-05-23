@@ -1,0 +1,25 @@
+# Document of Starship: https://starship.rs/ja-JP/config
+
+format = """
+$all\
+$line_break\
+$jobs\
+$shell\
+$character"""
+
+[directory]
+truncate_to_repo = false
+fish_style_pwd_dir_length = 1
+
+[status]
+disabled = false
+style = "#d13730"
+symbol = "ExitCode"
+format = "[\\[$symbol $status\\]](fg:$style) "
+
+[time]
+disabled = false
+
+[character]
+success_symbol = " [\\$](bold green)"
+error_symbol = " [\\$](bold red)"
