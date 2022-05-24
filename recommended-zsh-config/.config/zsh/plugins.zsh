@@ -25,8 +25,11 @@ zinit light zdharma/fast-syntax-highlighting
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'
 zinit light zsh-users/zsh-autosuggestions
 
-# 補完を強くする
-zinit light zsh-users/zsh-completions
+# 補完強化, z コマンド, ヒストリ検索の強化
+zinit atinit'zpcompinit' lucid light-mode for \
+  zsh-users/zsh-completions \
+  agkozak/zsh-z \
+  zsh-users/zsh-history-substring-search
 
 # Starship プロンプト https://starship.rs/ja-jp/
 if ! command -v starship >/dev/null ; then

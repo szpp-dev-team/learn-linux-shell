@@ -22,6 +22,8 @@ path=(
   $path
 )
 
+eval "$(dircolors)"
+
 # pager
 export PAGER=less
 export LESS='--no-init --quit-if-one-screen -R --LONG-PROMPT -i --shift 4 --jump-target=3'
