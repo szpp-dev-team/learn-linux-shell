@@ -54,7 +54,7 @@ brew install git curl zsh zip unzip tree
     以下のコマンドを実行すると、ログインシェルを Zsh に変更できます。
 
     ```sh
-    sudo chsh -s /bin/zsh
+    chsh -s /bin/zsh
     ```
 
     ちなみに macOS ではデフォルトで Zsh がログインシェルになっていると思います。
