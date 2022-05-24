@@ -26,8 +26,8 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'
 zinit light zsh-users/zsh-autosuggestions
 
 # 補完強化
-zinit atinit'zpcompinit' lucid light-mode for \
-  zsh-users/zsh-completions
+# zinit atinit'zpcompinit' lucid light-mode for \
+#   zsh-users/zsh-completions
 
 # Starship プロンプト https://starship.rs/ja-jp/
 if ! command -v starship >/dev/null ; then
