@@ -22,7 +22,10 @@ path=(
   $path
 )
 
-export SHELL=$(builtin command -v zsh)
-
+# pager
 export PAGER=less
 export LESS='--no-init --quit-if-one-screen -R --LONG-PROMPT -i --shift 4 --jump-target=3'
+
+# zip, unzip
+export ZIPINFOOPT="-OCP932"
+export UNZIPOPT="-OCP932"
