@@ -1,0 +1,6 @@
+[book]
+authors = ["arumakan1727"]
+language = "ja"
+multilingual = false
+src = "src"
+title = "シェル入門"
